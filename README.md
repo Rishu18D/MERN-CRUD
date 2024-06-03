@@ -3,18 +3,22 @@
 MERN-CRUD/
 ├── backend/
 │   ├── model/
+│   │   └── model.js
 │   ├── route/
+│   │   └── route.js
 │   ├── controller/
+│   │   └── controller.js
 │   ├── index.js
 │   ├── package.json
 │   └── .env
 ├── frontend/
 │   ├── public/
+│   │   └── (public files)
 │   ├── src/
+│   │   └── (source files)
 │   ├── package.json
 ├── README.md
 └── package.json
-
 
 
 This is a simple web application demonstrating CRUD (Create, Read, Update, Delete) operations using the MERN stack (MongoDB, Express, React, Node.js).
