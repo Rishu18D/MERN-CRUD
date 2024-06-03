@@ -1,6 +1,6 @@
 # MERN-CRUD
 ## Project Structure
-my-mern-app/
+MERN-CRUD/
 ├── backend/
 │   ├── model/
 │   ├── route/
@@ -13,7 +13,8 @@ my-mern-app/
 │   ├── src/
 │   ├── package.json
 ├── README.md
-├── package.json
+└── package.json
+
 
 
 This is a simple web application demonstrating CRUD (Create, Read, Update, Delete) operations using the MERN stack (MongoDB, Express, React, Node.js).
