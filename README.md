@@ -38,8 +38,8 @@ This is a simple web application demonstrating CRUD (Create, Read, Update, Delet
 
 1. **Clone the repository:**
     ```bash
-    git clone https://github.com/yourusername/my-mern-app.git
-    cd my-mern-app
+    git clone https://github.com/Rishu18D/MERN-CRUD.git
+    cd MERN-CRUD
     ```
 
 2. **Backend setup:**
