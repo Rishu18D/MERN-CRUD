@@ -1,0 +1,114 @@
+/* user.css */
+
+body {
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(to right, #ff6f61, #de1e7e);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    color: #fff;
+  }
+  
+  .userTable {
+    background: rgba(0, 0, 0, 0.7);
+    border-radius: 15px;
+    padding: 20px;
+    width: 80%;
+    max-width: 1200px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+    overflow-x: auto;
+  }
+  
+  .userTable a.addButton {
+    display: inline-block;
+    padding: 10px 20px;
+    margin-bottom: 20px;
+    background: #ff6f61;
+    color: #fff;
+    border-radius: 50px;
+    text-decoration: none;
+    transition: background 0.3s ease, box-shadow 0.3s ease;
+    box-shadow: 0 5px 15px rgba(255, 111, 97, 0.3);
+  }
+  
+  .userTable a.addButton:hover {
+    background: #de1e7e;
+    box-shadow: 0 8px 20px rgba(255, 111, 97, 0.5);
+  }
+  
+  .userTable table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+  }
+  
+  .userTable th, .userTable td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .userTable th {
+    background: rgba(0, 0, 0, 0.8);
+    color: #fff;
+  }
+  
+  .userTable tbody tr:hover {
+    background: rgba(255, 255, 255, 0.1);
+  }
+  
+  .actionButtons {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .actionButtons button,
+  .actionButtons a {
+    padding: 8px 12px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s ease, transform 0.2s ease, box-shadow 0.3s ease;
+  }
+  
+  .actionButtons button {
+    background: #ff6f61;
+    color: #fff;
+    box-shadow: 0 5px 15px rgba(255, 111, 97, 0.3);
+  }
+  
+  .actionButtons button:hover {
+    background: #de1e7e;
+    box-shadow: 0 8px 20px rgba(255, 111, 97, 0.5);
+  }
+  
+  .actionButtons button:active {
+    transform: scale(0.98);
+  }
+  
+  .actionButtons a {
+    background: #fff;
+    color: #ff6f61;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 5px 15px rgba(255, 111, 97, 0.3);
+  }
+  
+  .actionButtons a:hover {
+    background: #ff6f61;
+    color: #fff;
+    box-shadow: 0 8px 20px rgba(255, 111, 97, 0.5);
+  }
+  
+  .actionButtons a:active {
+    transform: scale(0.98);
+  }
+  
+  .actionButtons i {
+    margin-right: 5px;
+  }
+  
